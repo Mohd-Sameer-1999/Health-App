@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/healthFragment">
+
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.samdroid.healthapp.fragments.HealthFragment"
+        android:label="Health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="com.samdroid.healthapp.fragments.ReminderFragment"
+        android:label="Reminder"
+        tools:layout="@layout/fragment_reminder" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.samdroid.healthapp.fragments.UserProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.samdroid.healthapp.fragments.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+</navigation>

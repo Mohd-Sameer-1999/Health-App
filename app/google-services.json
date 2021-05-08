@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "397331137319",
+    "project_id": "health-app-9cc3b",
+    "storage_bucket": "health-app-9cc3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397331137319:android:50831ac4118bbee74e1f02",
+        "android_client_info": {
+          "package_name": "com.samdroid.healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397331137319-ephpobtmemsb6n1vb3vqdgcvi4l3qeim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.samdroid.healthapp",
+            "certificate_hash": "a24c75097b50a7158f4e5a3cf419b89f61fee43b"
+          }
+        },
+        {
+          "client_id": "397331137319-ri7qgt6ecjdgtj8he4r8mssp5olsv45o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAP8njZshPzYl8j8FARFXt7zJFeczHsn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397331137319-ri7qgt6ecjdgtj8he4r8mssp5olsv45o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
