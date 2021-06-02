@@ -44,13 +44,12 @@ public class BpReadingsAdapter extends RecyclerView.Adapter<BpReadingsAdapter.Bp
     public void onBindViewHolder(@NonNull BpReadingViewHolder holder, int position){
         BpReadings bpReadings1 = bpReadings.get(position);
         String date = bpReadings1.getDate();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy", Locale.ENGLISH);
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy", Locale.getDefault());
         try {
             Date date1 = sdf.parse(date);
             Calendar calendar = Calendar.getInstance();
             calendar.setTime(date1);
             int day = calendar.get(Calendar.DAY_OF_WEEK);
-            Log.i("Day of the week ", String.valueOf(day));
             String[] dayOfTheWeek = new String[]{"Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"};
             holder.binding.dayTextView.setText(dayOfTheWeek[day -1]);
         } catch (ParseException e) {
